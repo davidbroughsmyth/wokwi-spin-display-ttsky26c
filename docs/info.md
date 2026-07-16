@@ -9,11 +9,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Logic to spin 7 segment display
 
 ## How to test
 
-Explain how to use your project
+Push buttons and blink
 
 ## External hardware
 

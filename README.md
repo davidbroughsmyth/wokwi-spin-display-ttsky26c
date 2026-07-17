@@ -2,7 +2,7 @@
 
 # Tiny Tapeout Wokwi Project Template
 
-This is for Wokwi project: https://wokwi.com/projects/469616044806931457
+This is for Wokwi Spin Display project: https://wokwi.com/projects/469616044806931457
 
 - [Read the documentation for project](docs/info.md)
 

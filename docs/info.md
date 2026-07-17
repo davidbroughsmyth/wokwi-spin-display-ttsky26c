@@ -18,9 +18,11 @@ Uses D flip-flops with reset to sequence like a shift register the segments of t
 The D flip-flips feed the !Q inverted output to the start of the FF, but this is fliped to the Q out of the first FF via a multiplexer.  
 The muliplexer is controled by input IN0, setting to "1" has the affect to stop the sequence after the FF's progress 6 shifts.  
 
+Revesing is done by muliplexers switching the FF outputs to the display.
+
 Reset clears all the display.
 
-Input IN0 stops the sequence after 
+Input IN0 stops the sequence after its full 6 shifts.
 
 ## How to test
 
@@ -28,4 +30,4 @@ Set clock and watch the display. Push resest. Flip input IO0 high or low.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Switches for In0 and In1. 7 Segment display for Out0 to Out5.
